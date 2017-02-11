@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-  res.render('index', {title: 'Kjøller - mode for mænd'});
+  res.render('index', {title: 'Kjøller - Mode For Mænd'});
 });
 
 router.post('/contact', function (req, res) {
